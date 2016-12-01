@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 # Fontawesome icons
 gem 'font-awesome-sass'
+# Tether: for tooltips and popovers from Bootstrap 4
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 # Bootstrap 4
 gem 'bootstrap', '~> 4.0.0.alpha5'
 # Annotate models
